@@ -1,0 +1,76 @@
+body {
+    background-color: lightblue;
+    color: darkslateblue;
+    font-family: ;
+}
+
+p {
+    /* border expects border width, border style, and border-color */
+    border: 1px dashed;
+    padding: 10px;
+    margin: 20px;
+}
+
+.banner {
+    background-color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    color: cornflowerblue;
+    border: 5px dotted;
+    padding: 20px;
+    margin: 50px;
+}
+
+p:hover {
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+img {
+    border: 5px inset #91b4c0;
+    max-width: 100%;
+}
+
+details {
+    /*background-color: pink; */
+    margin-bottom: 30px;
+}
+
+summary {
+    /* background-color: crimson; */
+    padding: 10 px;
+    cursor:pointer;
+}
+
+summary:hover {
+    background-color:antiquewhite;
+}
+
+a {
+    color:#a35e2f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: bisque;
+    background-color: #a35e2f;
+}
+
+div {
+    background-color: lightgray;
+}
+
+.test {
+    background-color: coral;
+}
+
+#special {
+    background-color: darkolivegreen;
+}
+
+#special {
+    background-color: deeppink;
+}

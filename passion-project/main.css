@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(30, 30, 30);
+}
+
+h1 {
+    color: rgb(152, 62, 236);
+}
+
+h2 {
+    color: blueviolet;
+}
+
+h3 {
+    color: blueviolet;
+    text-align: center;
+}
+
+h4 {
+    color: blueviolet;
+}
+
+details {
+    background-color: rgb(240, 240, 240);
+    color: rgb(48, 48, 48);
+}
+
+summary {
+    text-align: center;
+}
+
+a {
+    color: rgb(209, 141, 255);
+}
+
+img {
+    align-items: center;
+
+}
