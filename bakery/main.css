@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+  }
+
+img {
+    max-width: 100%;
+}
+
+button {
+    border: none;
+}
+
+.main {
+    width: 1800px;
+    height: 1200px;
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.building {
+    position: absolute;
+    top: 140px;
+}
+
+.daypost {
+    position: absolute;
+    width: 354px;
+    height: 651px;
+    top: 470px;
+    left: 700px;
+}
+
+.purplesky-btn {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    left: 1420px;
+    top: 150px;
+    background: rgb(166, 0, 255);
+    width: 120px;
+    height: 120px;
+    opacity: 0;
+    z-index: 11;
+}
+
+.night {
+    width: 1800px;
+    height: 1200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.night.purplesky {
+    opacity: 1;
+}
+
+.daybakery {
+    position: absolute;
+    width: 696px;
+    height: 1032px;
+    top: 135px;
+    left: 90px;
+}
+
+.nightbakery {
+    position: absolute;
+    width: 696px;
+    height: 1032px;
+    top: 135px;
+    left: 90px;
+    opacity: 0;
+}
+
+.bakeryglow-btn {
+    position: absolute;
+    left: 100px;
+    top: 250px;
+    background: aqua;
+    width: 650px;
+    height: 850px;
+    opacity: 0;
+    z-index: 3;
+}
+
+.nightbakery.bakeryglow {
+    opacity: 1;
+}
+
+.pinktree {
+    position: absolute;
+    right: 0;
+    bottom: 60px;
+}
+
+.nightpost {
+    position: absolute;
+    width: 354px;
+    height: 651px;
+    top: 470px;
+    left: 700px;
+    opacity: 0;
+}
+
+.nightpost.postglow {
+    opacity: 1;
+}
+
+.postglow-btn {
+    position: absolute;
+ 
+    left: 820px;
+    top: 550px;
+    background: rgb(0, 255, 42);
+    width: 120px;
+    height: 580px;
+    opacity: 0;
+    z-index: 2;
+}
+
+.nightbuilding {
+    position: absolute;
+    top: 140px;
+    left: 0;
+    opacity: 0;
+}
+
+.buildingglow-btn {
+    position: absolute;
+    background: yellow;
+    width: 100px;
+    height: 900px;
+    top: 140px;
+    left: 0;
+    opacity: 0;
+    z-index: 5;
+}
+
+.nightbuilding.buildingglow {
+    opacity: 1;
+    left: 0;
+}
+
+.door {
+    position: absolute;
+    left: 550px;
+    top: 750px;
+    background: orange;
+    width: 200px;
+    height: 350px;
+    opacity: 0;
+    z-index: 10;
+}

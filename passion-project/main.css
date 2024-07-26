@@ -3,36 +3,56 @@ body {
 }
 
 h1 {
-    color: rgb(152, 62, 236);
+    color: rgb(255, 68, 171);
 }
 
 h2 {
-    color: blueviolet;
+    color: rgb(248, 33, 255);
 }
 
 h3 {
-    color: blueviolet;
+    color: rgb(84, 224, 255);
     text-align: center;
 }
 
 h4 {
-    color: blueviolet;
+    color: rgb(195, 43, 226);
+}
+
+h5 {
+    background-color: bisque;
+    color: blue;
+    font-size: 42px;
+    padding: 100px;
+}
+
+h6 {
+
 }
 
 details {
     background-color: rgb(240, 240, 240);
     color: rgb(48, 48, 48);
+    padding: 0;
 }
 
 summary {
     text-align: center;
+    color: aliceblue;
+    background-color: rgb(173, 75, 200);
 }
 
 a {
-    color: rgb(209, 141, 255);
+    color: rgb(18, 155, 186);
 }
 
 img {
     align-items: center;
 
+}
+
+.bubblemonster {
+    position: absolute;
+    top: 450px;
+    left: 200px;
 }

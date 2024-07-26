@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+  }
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background: rgb(66, 212, 238);
+    margin: 0;
+}
+
+body.dark {
+    background: rgb(0, 113, 139);
+}
+
+.toolbar {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+button{
+    border: 1px dashed;
+    background: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: plum;
+}
+
+button:active {
+    background: ghostwhite;
+}
+
+button.engaged {
+    background: orange;
+}
+
+button.engaged:hover {
+    background: rgb(172, 112, 0);
+}
+
+button.engaged:active {
+    background: rgb(87, 56, 0);
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box{
+    background: rgb(203, 245, 255);
+    width: 100px;
+    height: 100px;
+    animation: spin 5s infinite;
+    animation-play-state:paused;
+}
+
+.box.dark {
+    background: rgb(10, 178, 216);
+}
+
+.box.glow {
+    background: lightyellow;
+}
+
+.box.spin {
+    animation-play-state: running;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+
+.chair {
+    width: 200px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0;
+}
+
+.chair.reveal {
+    opacity: 1;
+}
